@@ -1,3 +1,12 @@
+#!/usr/bin/python
+# ==========================================================================================
+# deser-py v0.1a
+# Date: 08-03-2020
+# Author: d3adc0de
+# ==========================================================================================
+# The script generates serialized payloads for pickle, yaml and jsonpickle
+# PoC Version - Will be further developed soon
+#
 import os
 import _pickle
 import subprocess
