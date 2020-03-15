@@ -8,6 +8,10 @@ Deser-py is a script to automatically generate serialized payloads for Python dr
 
 The generated payloads are designed to operate both with system and Popen, which allow to execute system commands on the target. When choosing among them, conisder that Popen, as a class, is considered more reliable than system to gain RCE capabilities.
 
+This tool has been realised as part of a research on common deserialization issues. For further information, consider reading the following article:
+
+* [The Big Problem of Serialisation](https://klezvirus.github.io/The_Big_Problem_of_Serialisation/)
+
 ## Usage
 
 Using deser-py is very straightforward::
@@ -29,6 +33,14 @@ optional arguments:
                         Serialization archive format
   -c COMMAND, --command COMMAND
                         Command for the payload
+```
+
+## Requirements
+
+In order to use **deser-py**, the following node modules must be installed:
+
+```
+pip install -r requirements.txt
 ```
 
 ## TODO:
