@@ -37,7 +37,7 @@ optional arguments:
 
 ## Requirements
 
-In order to use **deser-py**, the following node modules must be installed:
+In order to use **deser-py**, jsonpickle and PyYAML modules must be installed:
 
 ```
 pip install -r requirements.txt
